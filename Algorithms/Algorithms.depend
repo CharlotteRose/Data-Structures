@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1408637233 source:c:\users\zolphinus\documents\github\data-structures\algorithms\algorithms.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+
