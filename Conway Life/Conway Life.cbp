@@ -31,6 +31,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Cell.cpp" />
+		<Unit filename="Cell.h" />
+		<Unit filename="CellBoard.cpp" />
+		<Unit filename="CellBoard.h" />
+		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
