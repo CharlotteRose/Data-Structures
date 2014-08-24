@@ -70,3 +70,17 @@ void Cell::testCell(){
     }
 
 }
+
+void Cell::initializeLiveCell(){
+    cellState = cellState->nextState(Alive);
+
+}
+
+bool Cell::getState(){
+    return cellState->getState();
+}
+
+
+int Cell::getNeigh(){
+    return numNeighborsAlive;
+}

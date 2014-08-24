@@ -7,6 +7,8 @@
 
 #define MAX_DISPLAY_WIDTH 25
 #define MAX_DISPLAY_HEIGHT 25
+#define PRINT_SCREEN 15
+
 
 class Cell;
 
@@ -17,14 +19,22 @@ class CellBoard{
 
         void checkRules();
         void updateCells();
+        void printBoard();
+        void checkRowValues(int& y);
+        void checkColumnValues(int& x);
+
+        bool errorsDetected();
+
+        void testAllCells();
 
     private:
-        std::vector < std::vector<Cell> > gameSpace;
+        std::vector < std::vector<Cell*> > gameSpace;
         int rows;
         int columns;
+        bool readError;
 
 
-        void checkNeighbors(Cell&);
+        void checkNeighbors(Cell*&, int y, int x);
 
 
         void readGameFile(std::string);

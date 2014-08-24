@@ -5,10 +5,20 @@
 
 
 void cellTest();
+void boardTest();
+
 int main(){
 
     //cellTest();
-    CellBoard ourGame("test");
+    //boardTest();
+
+    CellBoard ourGame("test.txt");
+    while(ourGame.errorsDetected() != true)
+    {
+        ourGame.printBoard();
+        ourGame.checkRules();
+        ourGame.updateCells();
+    }
 
 
     return 0;
@@ -22,4 +32,9 @@ void cellTest(){
     tempCell.testCell();
 
     std::cout << "The cell test completed successfully." << std::endl;
+}
+
+void boardTest(){
+    CellBoard ourGame("test.txt");
+    ourGame.testAllCells();
 }

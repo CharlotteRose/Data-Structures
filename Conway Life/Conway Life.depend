@@ -1,19 +1,26 @@
 # depslib dependency file v1.0
-1408824637 source:c:\users\zolphinus\documents\github\data-structures\conway life\main.cpp
+1408854168 source:c:\users\zolphinus\documents\github\data-structures\conway life\main.cpp
 	"Cell.h"
 	<iostream>
 	"CellBoard.h"
 
-1408814442 c:\users\zolphinus\documents\github\data-structures\conway life\cell.h
+1408854309 c:\users\zolphinus\documents\github\data-structures\conway life\cell.h
 	<stddef.h>
 
-1408813843 source:c:\users\zolphinus\documents\github\data-structures\conway life\cell.cpp
+1408854338 source:c:\users\zolphinus\documents\github\data-structures\conway life\cell.cpp
 	<iostream>
 	"Cell.h"
 	<string>
 
-1408824716 c:\users\zolphinus\documents\github\data-structures\conway life\cellboard.h
+1408854580 c:\users\zolphinus\documents\github\data-structures\conway life\cellboard.h
 	<vector>
 	<string>
 	"Cell.h"
+
+1408855002 source:c:\users\zolphinus\documents\github\data-structures\conway life\cellboard.cpp
+	"CellBoard.h"
+	<string>
+	<fstream>
+	<iostream>
+	<windows.h>
 

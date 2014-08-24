@@ -27,8 +27,13 @@ class Cell{
         //need to complete
         void updateLiveNeighbors(int neighborsAlive);
         void updateCell();
+        bool getState();
 
+        int getNeigh();
+
+        void initializeLiveCell();
         void testCell();
+
 
 
 
