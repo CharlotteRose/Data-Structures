@@ -24,7 +24,9 @@ void Cell::updateCell(){
     else if (numNeighborsAlive == 3)
         cellState = cellState->nextState(Alive);
     else if (numNeighborsAlive > 3)
+    {
         cellState = cellState->nextState(Dead);
+    }
 }
 
 void Cell::testCell(){
