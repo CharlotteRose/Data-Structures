@@ -5,7 +5,14 @@
 #include <windows.h>
 
 
-CellBoard::CellBoard(std::string gameFileName){
+CellBoard::CellBoard(){
+    std::string gameFileName = "";
+
+    std::cout << "Type the name of the game file and press enter. " << std::endl;
+    std::cout << "Game File: ";
+    std::cin >> gameFileName;
+
+    generations = 0;
     rows = 0;
     columns = 0;
     readGameFile(gameFileName);
@@ -28,6 +35,8 @@ void CellBoard::readGameFile(std::string gameFileName){
     char tempInput = 0;
 
     readFile.open(gameFileName.c_str());
+
+    std::cout << "GAME FILE NAME IS: " << gameFileName << std::endl;
     if(readFile.is_open())
         {
             readFile >> rows;
@@ -71,11 +80,17 @@ void CellBoard::readGameFile(std::string gameFileName){
                 readFile.close();
             }
             else
+            {
                 std::cout << "The game file exceeds the map dimensions, please use a valid file." << std::endl;
+                readError = true;
+            }
                 readFile.close();
         }
     else
+    {
         std::cout << "The file was not found or does not exist." << std::endl;
+        readError = true;
+    }
 
 }
 
@@ -98,6 +113,7 @@ void CellBoard::testAllCells(){
 
 void CellBoard::printBoard(){
 
+    generations++;
     for (int i = 0; i < rows; i++)
     {
         for (int j = 0; j < columns; j++){
@@ -107,11 +123,14 @@ void CellBoard::printBoard(){
         std::cout << std::endl;
     }
 
-    for( int i = 0; i < PRINT_SCREEN; i++){
+    std::cout << std::endl << std::endl << "Number of Generations: " << generations << std::endl << std::endl
+              << std::endl << std::endl;
+
+    for( int i = 0; i < PRINT_SCREEN - rows; i++){
             std::cout << std::endl;
         }
 
-        Sleep(725);
+        Sleep(625);
 }
 
 void CellBoard::updateCells(){
@@ -148,6 +167,11 @@ void CellBoard::checkNeighbors(Cell*& currentCell, int y, int x){
     checkRowValues(i);
     checkColumnValues(j);
 
+    if(currentCell->getState() == Alive)
+    {
+        tempNeighbors--;
+    }
+
     for(int yCount = 0; yCount < 3; yCount++)
     {
         //checks for right wrap
@@ -156,10 +180,16 @@ void CellBoard::checkNeighbors(Cell*& currentCell, int y, int x){
         {
             //checks for bottom wrap
             checkColumnValues(j);
-
+            neighborIsAlive = false;
             neighborIsAlive = gameSpace[i][j]->getState();
+
+
+
             if(neighborIsAlive == true)
             {
+                //Algorithm was counting current cell as a neighbor.
+                //When tried to skip current cell, counts acted odd
+                //So this If block corrects the counts.
                 tempNeighbors++;
 
             }

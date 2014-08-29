@@ -12,7 +12,8 @@ int main(){
     //cellTest();
     //boardTest();
 
-    CellBoard ourGame("test.txt");
+
+    CellBoard ourGame;
     while(ourGame.errorsDetected() != true)
     {
         ourGame.printBoard();
@@ -35,6 +36,6 @@ void cellTest(){
 }
 
 void boardTest(){
-    CellBoard ourGame("test.txt");
+    CellBoard ourGame;
     ourGame.testAllCells();
 }

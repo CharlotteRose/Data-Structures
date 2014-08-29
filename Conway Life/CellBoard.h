@@ -14,7 +14,7 @@ class Cell;
 
 class CellBoard{
     public:
-        CellBoard(std::string);
+        CellBoard();
         ~CellBoard();
 
         void checkRules();
@@ -31,6 +31,7 @@ class CellBoard{
         std::vector < std::vector<Cell*> > gameSpace;
         int rows;
         int columns;
+        int generations;
         bool readError;
 
 
