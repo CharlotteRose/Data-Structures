@@ -10,9 +10,9 @@ void boardTest();
 int main(){
 
     //cellTest();
-    //boardTest();
+    boardTest();
 
-
+/*
     CellBoard ourGame;
     while(ourGame.errorsDetected() != true)
     {
@@ -20,7 +20,7 @@ int main(){
         ourGame.checkRules();
         ourGame.updateCells();
     }
-
+*/
 
     return 0;
 }
