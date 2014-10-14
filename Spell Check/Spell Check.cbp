@@ -33,7 +33,9 @@
 		</Compiler>
 		<Unit filename="Node.cpp" />
 		<Unit filename="Node.h" />
+		<Unit filename="SpellCheck.cpp" />
 		<Unit filename="SpellCheck.h" />
+		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

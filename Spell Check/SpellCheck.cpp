@@ -6,11 +6,13 @@
 
 SpellCheck::SpellCheck(){
     initialize("TEST");
+    compress();
 }
 
 
-void SpellCheck::checkWord(std::string){
-
+void SpellCheck::checkWord(std::string wordToCheck){
+    Node* travel = firstLetters;
+    Node* tempNode = NULL;
 }
 
 bool SpellCheck::initialize(std::string wordFile){
@@ -114,7 +116,10 @@ void SpellCheck::compress(Node* currentNode){
                 tempNode = NULL;
 
                 compressionMade = true;
+                std::cout << "Compressing to  " << travel->value << std::endl;
                 compress(travel);
+
+
 
             }
         }
@@ -142,5 +147,5 @@ void SpellCheck::testInsert(){
     insertWord(fourthWord);
 
     compress();
-    compress();
+
 }
