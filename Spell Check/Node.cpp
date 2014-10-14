@@ -1,11 +1,13 @@
 #include "Node.h"
 #include <string>
+#include <iostream>
 
 Node::Node(char newChar){
     value = toupper(newChar);
     childListHead = NULL;
     childListTail = childListHead;
     nextChild = NULL;
+    numChildren = 0;
 }
 
 void Node::addChild(Node* newChild){
@@ -17,19 +19,17 @@ void Node::addChild(Node* newChild){
         childListTail->nextChild = newChild;
         childListTail = childListTail->nextChild;
     }
-
+    numChildren++;
 }
 
-Node* Node::matchChild(char newChar){
+Node* Node::matchChild(std::string newChar){
     Node* tempChild = NULL;
-    char charToCheck = toupper(newChar);
-
-    if(isalpha(charToCheck) == true){
+    if(isalpha(toupper(newChar[0])) == true){
         //only check letters
         tempChild = childListHead;
 
         while(tempChild != NULL){
-            if(charToCheck == tempChild->value){
+            if(newChar[0] == tempChild->value[0]){
                 break;
             }
             tempChild = tempChild->nextChild;

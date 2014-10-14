@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1413300857 source:c:\users\zolphinus\documents\github\data-structures\spell check\main.cpp
+	"SpellCheck.h"
+
+1413300851 c:\users\zolphinus\documents\github\data-structures\spell check\spellcheck.h
+	<string>
+	"Node.h"
+
+1413301230 c:\users\zolphinus\documents\github\data-structures\spell check\node.h
+	<string>
+
+1413302601 source:c:\users\zolphinus\documents\github\data-structures\spell check\node.cpp
+	"Node.h"
+	<string>
+	<iostream>
+
+1413302553 source:c:\users\zolphinus\documents\github\data-structures\spell check\spellcheck.cpp
+	"SpellCheck.h"
+	"Node.h"
+	<string>
+	<iostream>
+
