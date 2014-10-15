@@ -6,19 +6,25 @@
 
 class SpellCheck{
 public:
-    SpellCheck();
+    SpellCheck(std::string);
 
 
     void checkWord(std::string);
 
     //reads in dictionary file and sets up the spell checker
     bool initialize(std::string);
-    void testInsert();
 
 private:
     void insertWord(std::string);
+    void loadDictionary(std::string);
+
+    void testInsert();
+    void testSearch();
+
     void compress();
     void compress(Node*);
+    void searchDictionary(std::string &wordToSearch, int currentPosition, Node*& currentNode);
+    void printSuggestions(Node*, std::string);
 
     std::string suggestion;
 

@@ -4,18 +4,115 @@
 #include <iostream>
 
 
-SpellCheck::SpellCheck(){
-    initialize("TEST");
+SpellCheck::SpellCheck(std::string dictionaryFile){
+    initialize(dictionaryFile);
     compress();
+
+    suggestion = "";
 }
 
 
 void SpellCheck::checkWord(std::string wordToCheck){
     Node* travel = firstLetters;
-    Node* tempNode = NULL;
+    suggestion = "";
+    //Node* tempNode = NULL;
+    bool letterFound = false;
+
+    //American English Alphabet
+    for(int i = 0; i < 26; i++){
+        if(travel != NULL){
+            if(toupper(wordToCheck[0]) == travel->value[0]){
+                letterFound = true;
+                break;
+            }
+            travel = travel->nextChild;
+        }
+    }
+
+    if(letterFound == true){
+        //starts checking against the first node in the matching letter tree
+        searchDictionary(wordToCheck, 0, travel);
+    }else{
+        std::cout << "Word does not start with a letter." << std::endl;
+    }
+
 }
 
-bool SpellCheck::initialize(std::string wordFile){
+void SpellCheck::searchDictionary(std::string &wordToSearch, int currentPosition, Node* &currentNode){
+    Node* travel = currentNode;
+    bool validLetter = false;
+    //checks all characters in the current node, unless word to search has been found
+
+    for(int i = 0; i < travel->value.length(); i++){
+        if(wordToSearch[currentPosition] == travel->value[i]){
+            //if the values match, converts the char into a string and adds to the suggestion prefix
+            std::string tempChar(1, travel->value[i]);
+            suggestion = suggestion + tempChar;
+            currentPosition++;
+            validLetter = true;
+            //check that the current position doesn't extend past the string length
+            if(currentPosition > wordToSearch.length()){
+                break;
+            }
+
+        }else{
+            //invalid letter
+            validLetter = false;
+            //if the current letters do not match, suggestion needs to complete the remainder of the string
+            for(int j = i; j < travel->value.length(); j++){
+                std::string tempChar(1, travel->value[i]);
+                suggestion = suggestion + tempChar;
+            }
+
+            break;
+        }
+    }
+
+    if(currentPosition >= wordToSearch.length()){
+        //word is found
+
+        std::cout << wordToSearch << " was in the dictionary." << std::endl;
+        return;
+    }
+    if(validLetter == true && currentPosition <= wordToSearch.length()){
+            //converts the next character in the word to search
+            std::string tempChar(1, wordToSearch[currentPosition]);
+            //checks if travel contains a child that starts with the next character in wordToSearch
+            travel = travel->matchChild(tempChar);
+
+            if(travel != NULL){
+                //there is a next letter, so recurse
+                searchDictionary(wordToSearch, currentPosition, travel);
+            }else{
+                //there is no next letter that matches, print suggestions
+                printSuggestions(travel, wordToSearch);
+            }
+    }else if(validLetter == false){
+        //letters didn't match so print suggestions
+        printSuggestions(travel, wordToSearch);
+    }
+
+
+
+}
+
+void SpellCheck::printSuggestions(Node* currentNode, std::string wordToFind){
+    Node* travel = currentNode->childListHead;
+    std::cout << wordToFind << " was not found." << std::endl;
+
+    if(travel != NULL){
+        std::cout << "Did you mean..." << std::endl;
+        while(travel != NULL){
+            std::cout << suggestion + travel->value << std::endl;
+            travel = travel->nextChild;
+        }
+
+    }else{
+        std::cout << "No suggestions were found" << std::endl;
+    }
+}
+
+bool SpellCheck::initialize(std::string dictionaryFile){
     firstLetters = new Node('A');
     Node* travel = firstLetters;
     Node* tempNode = NULL;
@@ -27,6 +124,16 @@ bool SpellCheck::initialize(std::string wordFile){
         travel = travel->nextChild;
         tempNode = NULL;
     }
+
+    loadDictionary(dictionaryFile);
+}
+
+
+
+void SpellCheck::loadDictionary(std::string dictionaryFile){
+    //open the file
+
+    //insert all the words
 }
 
 void SpellCheck::insertWord(std::string newWord){
@@ -148,4 +255,22 @@ void SpellCheck::testInsert(){
 
     compress();
 
+}
+
+
+void SpellCheck::testSearch(){
+
+    std::string firstWord = "BOOKS";
+    std::string secondWord = "BOOT";
+    std::string thirdWord = "BOOTS";
+    std::string fourthWord = "BOOLEAN";
+    insertWord(firstWord);
+    insertWord(secondWord);
+    insertWord(thirdWord);
+    insertWord(fourthWord);
+    compress();
+
+    checkWord("BOOKS");
+    checkWord("BOOT");
+    checkWord("BOLT");
 }

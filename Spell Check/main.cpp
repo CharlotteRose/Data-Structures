@@ -3,7 +3,7 @@
 
 
 int main(){
-    SpellCheck testSpellCheck;
+    SpellCheck testSpellCheck("Dictionary file here");
 
-    testSpellCheck.testInsert();
+    testSpellCheck;
 }
