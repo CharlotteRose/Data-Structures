@@ -2,12 +2,18 @@
 #include "Node.h"
 #include <string>
 #include <iostream>
+#include <fstream>
 
 
 SpellCheck::SpellCheck(std::string dictionaryFile){
+    std::cout << "Loading dictionary file..." << std::endl;
+    std::cout << "Please be patient, this may take awhile..." << std::endl;
     initialize(dictionaryFile);
+    std::cout << "Compressing words..." << std::endl;
+    std::cout << "Please be patient, this may take awhile..." << std::endl;
     compress();
 
+    std::cout << "Ready for searching..." << std::endl;
     suggestion = "";
 }
 
@@ -15,6 +21,7 @@ SpellCheck::SpellCheck(std::string dictionaryFile){
 void SpellCheck::checkWord(std::string wordToCheck){
     Node* travel = firstLetters;
     suggestion = "";
+
     //Node* tempNode = NULL;
     bool letterFound = false;
 
@@ -40,11 +47,13 @@ void SpellCheck::checkWord(std::string wordToCheck){
 
 void SpellCheck::searchDictionary(std::string &wordToSearch, int currentPosition, Node* &currentNode){
     Node* travel = currentNode;
+    Node* placeHolder = NULL;
     bool validLetter = false;
+
     //checks all characters in the current node, unless word to search has been found
 
     for(int i = 0; i < travel->value.length(); i++){
-        if(wordToSearch[currentPosition] == travel->value[i]){
+        if(toupper(wordToSearch[currentPosition]) == travel->value[i]){
             //if the values match, converts the char into a string and adds to the suggestion prefix
             std::string tempChar(1, travel->value[i]);
             suggestion = suggestion + tempChar;
@@ -76,19 +85,23 @@ void SpellCheck::searchDictionary(std::string &wordToSearch, int currentPosition
     }
     if(validLetter == true && currentPosition <= wordToSearch.length()){
             //converts the next character in the word to search
-            std::string tempChar(1, wordToSearch[currentPosition]);
+            std::string tempChar(1, toupper(wordToSearch[currentPosition]));
             //checks if travel contains a child that starts with the next character in wordToSearch
+            placeHolder = travel;
             travel = travel->matchChild(tempChar);
+
 
             if(travel != NULL){
                 //there is a next letter, so recurse
                 searchDictionary(wordToSearch, currentPosition, travel);
             }else{
                 //there is no next letter that matches, print suggestions
-                printSuggestions(travel, wordToSearch);
+                std::cout << "SUGGESTING1" << std::endl;
+                printSuggestions(placeHolder, wordToSearch);
             }
     }else if(validLetter == false){
         //letters didn't match so print suggestions
+        std::cout << "SUGGESTING2" << std::endl;
         printSuggestions(travel, wordToSearch);
     }
 
@@ -97,11 +110,25 @@ void SpellCheck::searchDictionary(std::string &wordToSearch, int currentPosition
 }
 
 void SpellCheck::printSuggestions(Node* currentNode, std::string wordToFind){
-    Node* travel = currentNode->childListHead;
+
+    Node* travel;
+
+    if(currentNode != NULL){
+        travel = currentNode->childListHead;
+    }else{
+        travel = currentNode;
+    }
+
+
+
+
+
     std::cout << wordToFind << " was not found." << std::endl;
+    std::cin.get();
 
     if(travel != NULL){
         std::cout << "Did you mean..." << std::endl;
+        std::cin.get();
         while(travel != NULL){
             std::cout << suggestion + travel->value << std::endl;
             travel = travel->nextChild;
@@ -131,9 +158,21 @@ bool SpellCheck::initialize(std::string dictionaryFile){
 
 
 void SpellCheck::loadDictionary(std::string dictionaryFile){
-    //open the file
+    std::ifstream fin;
+    std::string wordToInsert;
+    fin.open(dictionaryFile.c_str());
 
-    //insert all the words
+    if(fin.is_open()){
+
+        while(!fin.eof()){
+            fin >> wordToInsert;
+            insertWord(wordToInsert);
+        }
+
+    }else{
+        std::cout << "FILE DID NOT LOAD" << std::endl;
+    }
+
 }
 
 void SpellCheck::insertWord(std::string newWord){
@@ -155,16 +194,14 @@ void SpellCheck::insertWord(std::string newWord){
 
 
     if(letterFound == true){
-        std::cout << "First letter is " << travel->value << std::endl;
         //starts at 1 because first letter is already checked
         for(int i = 1; i < newWord.length(); i++){
-            std::string charToMatch(1, newWord[i]);
+            std::string charToMatch(1, toupper(newWord[i]));
             tempNode = travel->matchChild(charToMatch);
 
             if(tempNode != NULL){
                 //if a child node matches the next char in the string, advance travel node
                 travel = tempNode;
-                std::cout << "exist" << std::endl;
             }else{
                 //if char not found in child list, create a new child with the value, then advance
                 if(!isalpha(newWord[i])){
@@ -175,7 +212,6 @@ void SpellCheck::insertWord(std::string newWord){
                 tempNode = new Node(newWord[i]);
                 travel->addChild(tempNode);
                 travel = tempNode;
-                std::cout << "new" << std::endl;
             }
         }
 
@@ -223,7 +259,6 @@ void SpellCheck::compress(Node* currentNode){
                 tempNode = NULL;
 
                 compressionMade = true;
-                std::cout << "Compressing to  " << travel->value << std::endl;
                 compress(travel);
 
 
@@ -261,8 +296,8 @@ void SpellCheck::testInsert(){
 void SpellCheck::testSearch(){
 
     std::string firstWord = "BOOKS";
-    std::string secondWord = "BOOT";
-    std::string thirdWord = "BOOTS";
+    std::string secondWord = "boots";
+    std::string thirdWord = "boot";
     std::string fourthWord = "BOOLEAN";
     insertWord(firstWord);
     insertWord(secondWord);

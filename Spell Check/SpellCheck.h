@@ -13,13 +13,14 @@ public:
 
     //reads in dictionary file and sets up the spell checker
     bool initialize(std::string);
+    void testInsert();
+    void testSearch();
 
 private:
     void insertWord(std::string);
     void loadDictionary(std::string);
 
-    void testInsert();
-    void testSearch();
+
 
     void compress();
     void compress(Node*);
