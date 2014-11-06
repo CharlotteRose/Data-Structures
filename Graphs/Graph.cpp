@@ -43,6 +43,7 @@ void Graph::initialize(std::string fileToOpen){
                 if(tempNode == NULL){
                     //the currentNodeValue was not in the master list, so we add it
                     tempNode = new Node(currentNodeValue);
+                    tempNode->nodeNumber = masterList.size();
                     masterList.push_back(tempNode);
                 }
 
@@ -78,6 +79,8 @@ void Graph::initialize(std::string fileToOpen){
                         if(nodeInMaster == false){
                             //adjacent node was not found in master, so make new node and add to master
                             placeHolder = new Node(adjacentNodeValue);
+
+                            placeHolder->nodeNumber = masterList.size();
                             masterList.push_back(placeHolder);
 
                             //then add to the current node's adjacent list

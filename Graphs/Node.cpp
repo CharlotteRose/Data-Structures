@@ -5,6 +5,7 @@ Node::Node(char newValue){
 
     isVisited = false;
     letter = newValue;
+    nodeNumber = 0;
 }
 
 void Node::addAdjacent(Node* adjacentNode){
@@ -23,7 +24,7 @@ void Node::removeAdjacent(Node* adjacentNode){
 }
 
 void Node::printNode(){
-    std::cout << std::endl << letter << " - ";
+    std::cout << std::endl << letter << " " << nodeNumber << " - ";
     int i = 0;
     for(it = adjacentList.begin(); it < adjacentList.end(); it++, i++){
         std::cout << adjacentList[i]->letter << " ";

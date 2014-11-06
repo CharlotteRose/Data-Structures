@@ -16,6 +16,7 @@ public:
 
 
     char letter;
+    int nodeNumber;
     bool isVisited;
 };
 
