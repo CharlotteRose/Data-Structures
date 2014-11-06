@@ -1,4 +1,5 @@
 #include "Node.h"
+#include <iostream>
 
 Node::Node(char newValue){
 
@@ -8,9 +9,25 @@ Node::Node(char newValue){
 
 void Node::addAdjacent(Node* adjacentNode){
 
-    //could check for duplicate nodes here and prevent them from being added
-    //however, that may cause more overhead than just doing a depth/breadth search
-    //and checking the flag
-
     adjacentList.push_back(adjacentNode);
+}
+
+
+void Node::removeAdjacent(Node* adjacentNode){
+    int i = 0; //counter
+    for(it = adjacentList.begin(); it < adjacentList.end(); it++, i++){
+        if(adjacentNode->letter == adjacentList[i]->letter){
+            adjacentList.erase(it);
+        }
+    }
+}
+
+void Node::printNode(){
+    std::cout << std::endl << letter << " - ";
+    int i = 0;
+    for(it = adjacentList.begin(); it < adjacentList.end(); it++, i++){
+        std::cout << adjacentList[i]->letter << " ";
+    }
+    std::cout << std::endl;
+
 }

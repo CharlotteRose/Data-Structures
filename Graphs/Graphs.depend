@@ -1,3 +1,23 @@
 # depslib dependency file v1.0
-1415150317 source:c:\users\zolphinus\documents\github\data-structures\graphs\main.cpp
+1415231038 source:c:\users\zolphinus\documents\github\data-structures\graphs\main.cpp
+	"Graph.h"
+
+1415235816 source:c:\users\zolphinus\documents\github\data-structures\graphs\node.cpp
+	"Node.h"
+	<iostream>
+
+1415235499 c:\users\zolphinus\documents\github\data-structures\graphs\node.h
+	<vector>
+
+1415235379 c:\users\zolphinus\documents\github\data-structures\graphs\graph.h
+	<vector>
+	<string>
+	"Node.h"
+
+1415236052 source:c:\users\zolphinus\documents\github\data-structures\graphs\graph.cpp
+	"Graph.h"
+	<string>
+	<fstream>
+	<iostream>
+	<cstring>
 

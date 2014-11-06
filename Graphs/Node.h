@@ -8,6 +8,8 @@ public:
     Node(char newValue);
 
     void addAdjacent(Node*);
+    void removeAdjacent(Node*);
+    void printNode();
 
     std::vector <Node*> adjacentList; //contains all adjacent nodes
     std::vector <Node*>::iterator it; //iterator to allow access to adjacent nodes

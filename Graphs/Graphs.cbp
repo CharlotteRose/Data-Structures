@@ -31,6 +31,8 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Graph.cpp" />
+		<Unit filename="Graph.h" />
 		<Unit filename="Node.cpp" />
 		<Unit filename="Node.h" />
 		<Unit filename="main.cpp" />
