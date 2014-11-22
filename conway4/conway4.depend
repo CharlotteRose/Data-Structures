@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1416079246 source:c:\users\zolphinus\documents\github\data-structures\conway4\main.cpp
+	<assert.h>
+	"cell.h"
+
+1416079348 c:\users\zolphinus\documents\github\data-structures\conway4\cell.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+

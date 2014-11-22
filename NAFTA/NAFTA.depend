@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1416684449 source:c:\users\zolphinus\documents\github\data-structures\nafta\main.cpp
+	"Nafta.h"
+
+1416683457 c:\users\zolphinus\documents\github\data-structures\nafta\nafta.h
+	<string>
+	<vector>
+
+1416684314 source:c:\users\zolphinus\documents\github\data-structures\nafta\nafta.cpp
+	"Nafta.h"
+	<iostream>
+	<fstream>
+

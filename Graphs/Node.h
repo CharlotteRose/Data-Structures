@@ -16,8 +16,16 @@ public:
 
 
     char letter;
+    std::vector <int> weight;
+
+    int pathSum;
+    int infPathSum;
+
+    Node* priorNode;
+    Node* infPriorNode;
     int nodeNumber;
     bool isVisited;
+    bool infTimeCheck;
 };
 
 #endif // NODE_H

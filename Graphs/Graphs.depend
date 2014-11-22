@@ -1,23 +1,42 @@
 # depslib dependency file v1.0
-1415236064 source:c:\users\zolphinus\documents\github\data-structures\graphs\main.cpp
+1416274543 source:c:\users\zolphinus\documents\github\data-structures\graphs\main.cpp
 	"Graph.h"
 
-1415237883 source:c:\users\zolphinus\documents\github\data-structures\graphs\node.cpp
+1416273950 source:c:\users\zolphinus\documents\github\data-structures\graphs\node.cpp
 	"Node.h"
 	<iostream>
 
-1415237754 c:\users\zolphinus\documents\github\data-structures\graphs\node.h
+1416273941 c:\users\zolphinus\documents\github\data-structures\graphs\node.h
 	<vector>
 
-1415235379 c:\users\zolphinus\documents\github\data-structures\graphs\graph.h
+1416353575 c:\users\zolphinus\documents\github\data-structures\graphs\graph.h
 	<vector>
 	<string>
 	"Node.h"
+	"PriorityQueue.h"
 
-1415236052 source:c:\users\zolphinus\documents\github\data-structures\graphs\graph.cpp
+1416355213 source:c:\users\zolphinus\documents\github\data-structures\graphs\graph.cpp
 	"Graph.h"
 	<string>
 	<fstream>
 	<iostream>
 	<cstring>
+	<queue>
+	"PriorityQueue.h"
+
+1416018624 c:\users\zolphinus\documents\github\data-structures\graphs\priorityqueue.h
+	"PriorityNode.h"
+	"Node.h"
+
+1415998503 c:\users\zolphinus\documents\github\data-structures\graphs\prioritynode.h
+	"Node.h"
+
+1415998465 source:c:\users\zolphinus\documents\github\data-structures\graphs\prioritynode.cpp
+	"PriorityNode.h"
+	<stdlib.h>
+
+1416355308 source:c:\users\zolphinus\documents\github\data-structures\graphs\priorityqueue.cpp
+	"PriorityQueue.h"
+	<stdlib.h>
+	<iostream>
 

@@ -1,9 +1,24 @@
 #include "Graph.h"
 
 
+
 int main(){
-    Graph testGraph;
-    testGraph.initialize("Graph.txt");
+    Graph testGraph("Graph.txt");
+    //testGraph.initialize("Graph.txt");
     testGraph.printGraph();
+    //testGraph.printMatrix();
+
+    //testGraph.breadthFirst(testGraph.startNode);
+
+
+
+    testGraph.graveyard('P');
+
+
+    //testGraph.prim();
+    //testGraph.kruskal();
+
+    //testGraph.testPath('P');
+
     return 0;
 }
