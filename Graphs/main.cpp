@@ -14,7 +14,7 @@ int main(){
 
     testGraph.graveyard('P');
 
-
+    //testGraph.dijstra();
     //testGraph.prim();
     //testGraph.kruskal();
 
