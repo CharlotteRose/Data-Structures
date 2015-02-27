@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1424910434 source:c:\users\zolphinus\documents\github\data-structures\assembler\main.cpp
+	"Assembler.h"
+
+1424914996 c:\users\zolphinus\documents\github\data-structures\assembler\assembler.h
+	<string>
+	<iostream>
+	<fstream>
+
+1424912697 source:c:\users\zolphinus\documents\github\data-structures\assembler\assembler.cpp
+	"Assembler.h"
+
