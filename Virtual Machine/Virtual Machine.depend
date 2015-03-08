@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1425700901 source:c:\users\zolphinus\documents\github\data-structures\virtual machine\main.cpp
+	"VirtualMachine.h"
+
+1425701405 c:\users\zolphinus\documents\github\data-structures\virtual machine\virtualmachine.h
+	<string>
+	<fstream>
+	<ostream>
+	<iostream>
+
+1425765216 source:c:\users\zolphinus\documents\github\data-structures\virtual machine\virtualmachine.cpp
+	"VirtualMachine.h"
+

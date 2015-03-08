@@ -1,5 +1,10 @@
 #include "Assembler.h"
+#include <iostream>
+#include <string>
 
 int main(){
-    Assembler assembler("PongL");
+    std::string fileName;
+    std::cout << "Enter the filename to convert from .asm to .hack" << std::endl;
+    std::cin >> fileName;
+    Assembler assembler(fileName);
 }
