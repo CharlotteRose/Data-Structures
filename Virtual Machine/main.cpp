@@ -3,6 +3,6 @@
 int main(){
     std::string fileName;
 
-    fileName = "StackTest";
+    fileName = "Sys";
     VirtualMachine VirtualMachine(fileName);
 }
