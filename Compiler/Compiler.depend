@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1427248130 source:c:\users\zolphinus\documents\github\data-structures\compiler\main.cpp
+	"Compiler.h"
+
+1427255417 c:\users\zolphinus\documents\github\data-structures\compiler\compiler.h
+	<fstream>
+	<string>
+	"Tokenizer.h"
+	"Token.h"
+	<List>
+
+1427254791 source:c:\users\zolphinus\documents\github\data-structures\compiler\compiler.cpp
+	"Compiler.h"
+	<iostream>
+
+1427254734 source:c:\users\zolphinus\documents\github\data-structures\compiler\token.cpp
+	"Token.h"
+
+1427255566 c:\users\zolphinus\documents\github\data-structures\compiler\token.h
+	<string>
+
+1427254460 source:c:\users\zolphinus\documents\github\data-structures\compiler\tokenizer.cpp
+	"Tokenizer.h"
+
+1427263135 c:\users\zolphinus\documents\github\data-structures\compiler\tokenizer.h
+	<list>
+	"Token.h"
+	<string>
+
