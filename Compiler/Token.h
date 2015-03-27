@@ -17,6 +17,7 @@ public:
     Token();
 
     TokenType tokenType;
+    std::string keyword;
     char symbol;
     std::string identifier;
     int intVal;

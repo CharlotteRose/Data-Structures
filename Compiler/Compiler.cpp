@@ -7,9 +7,15 @@ Compiler::Compiler(){
 void Compiler::compileFile(std::string inputFile){
     std::string strippedFileName;
     std::string strippedFile;
+    std::string tokenFile;
+    std::string xmlFile;
 
     //strip the input file of comments and whitespace
     strippedFileName = stripFile(inputFile);
+    tokenFile = strippedFileName + ".token";
+    xmlFile = strippedFile + ".xml";
+
+    tokenizer.getTokens(tokenFile, tokenList);
 
 
     //pass the strippedFile to the syntax analyzer and output the tokens to XML
@@ -33,9 +39,11 @@ std::string Compiler::stripFile(std::string inputFile){
     char lastChar = ' ';
     bool lineComment = false;
     bool blockComment = false;
+    bool variable = false;
 
     while (fin.get(c))
     {
+        variable = false;
         if(blockComment == true){
             if(c == '/' && lastChar == '*'){
                 blockComment = false;
@@ -61,10 +69,51 @@ std::string Compiler::stripFile(std::string inputFile){
                     blockComment = true;
                 }else{
                   //output
+
+
                   fout << c;
                 }
             }else{
-              fout << c;
+                //check here for var syntax
+                // if v, a, r, and a space line up
+                char tempVar;
+                if(c == 'v'){
+                    fout << c;
+
+                    tempVar = fin.peek();
+                    if(tempVar == 'a'){
+                        fin.get(c);
+                    }
+
+
+                    if(c == 'a'){
+                        fout << c;
+                        tempVar = fin.peek();
+                        if(tempVar == 'r'){
+                            fin.get(c);
+                        }
+
+                        if(tempVar == 'r'){
+                            fout << c;
+
+                            tempVar = fin.peek();
+                            if(tempVar == ' '){
+                                //if whitespace, then we have a variable declaration
+                                std::string tempStr;
+                                fin >> tempStr;
+                                fout << tempStr << '#';
+                                fin >> tempStr;
+                                fout << tempStr;
+
+                            }
+                        }
+                    }
+                  //then read the next item into a string, and append a # to it
+                }else{
+                  fout << c;
+                }
+
+
             }
         }
 

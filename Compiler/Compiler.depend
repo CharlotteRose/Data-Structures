@@ -9,20 +9,23 @@
 	"Token.h"
 	<List>
 
-1427254791 source:c:\users\zolphinus\documents\github\data-structures\compiler\compiler.cpp
+1427428922 source:c:\users\zolphinus\documents\github\data-structures\compiler\compiler.cpp
 	"Compiler.h"
 	<iostream>
 
-1427254734 source:c:\users\zolphinus\documents\github\data-structures\compiler\token.cpp
+1427416389 source:c:\users\zolphinus\documents\github\data-structures\compiler\token.cpp
 	"Token.h"
 
-1427255566 c:\users\zolphinus\documents\github\data-structures\compiler\token.h
+1427416378 c:\users\zolphinus\documents\github\data-structures\compiler\token.h
 	<string>
 
-1427254460 source:c:\users\zolphinus\documents\github\data-structures\compiler\tokenizer.cpp
+1427474469 source:c:\users\zolphinus\documents\github\data-structures\compiler\tokenizer.cpp
 	"Tokenizer.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
 
-1427263135 c:\users\zolphinus\documents\github\data-structures\compiler\tokenizer.h
+1427398408 c:\users\zolphinus\documents\github\data-structures\compiler\tokenizer.h
 	<list>
 	"Token.h"
 	<string>
