@@ -31,6 +31,8 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="CompileEngine.cpp" />
+		<Unit filename="CompileEngine.h" />
 		<Unit filename="Compiler.cpp" />
 		<Unit filename="Compiler.h" />
 		<Unit filename="Token.cpp" />

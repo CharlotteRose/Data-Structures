@@ -9,18 +9,26 @@ void Compiler::compileFile(std::string inputFile){
     std::string strippedFile;
     std::string tokenFile;
     std::string xmlFile;
+    tokenList = new std::list<Token*>();
 
     //strip the input file of comments and whitespace
     strippedFileName = stripFile(inputFile);
     tokenFile = strippedFileName + ".token";
     xmlFile = strippedFile + ".xml";
 
+    //makes a list that contains the tokens
     tokenizer.getTokens(tokenFile, tokenList);
+
+    //passes the token list into the compile engine for parsing
+    compileEngine.recieveTokens(tokenList);
+
+    //recursive descent parsing
 
 
     //pass the strippedFile to the syntax analyzer and output the tokens to XML
 
 }
+
 
 std::string Compiler::stripFile(std::string inputFile){
     int dotLoc = 0;
@@ -53,7 +61,6 @@ std::string Compiler::stripFile(std::string inputFile){
             if(c == '\n'){
                 lineComment = false;
             }
-        }else if(c == ' '){
         }else if(c == '\n'){
             if(c == '\n'){
                 lineComment = false;
@@ -77,6 +84,8 @@ std::string Compiler::stripFile(std::string inputFile){
                 //check here for var syntax
                 // if v, a, r, and a space line up
                 char tempVar;
+                fout << c;
+                /*
                 if(c == 'v'){
                     fout << c;
 
@@ -84,6 +93,7 @@ std::string Compiler::stripFile(std::string inputFile){
                     if(tempVar == 'a'){
                         fin.get(c);
                     }
+
 
 
                     if(c == 'a'){
@@ -101,17 +111,20 @@ std::string Compiler::stripFile(std::string inputFile){
                                 //if whitespace, then we have a variable declaration
                                 std::string tempStr;
                                 fin >> tempStr;
-                                fout << tempStr << '#';
+                                fout << tempStr << ' ';
                                 fin >> tempStr;
                                 fout << tempStr;
 
                             }
                         }
+
+
                     }
                   //then read the next item into a string, and append a # to it
                 }else{
                   fout << c;
                 }
+                */
 
 
             }

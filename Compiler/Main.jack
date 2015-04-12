@@ -10,7 +10,9 @@ class Main {
 
     /** Initializes a new game and starts it. */    
     function void main() {
+	
         var SquareGame game;
+		if(){}
 		let game = "5666";
         let game = SquareGame.new();
         do game.run();

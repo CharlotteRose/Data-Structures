@@ -12,7 +12,7 @@ class Tokenizer{
 public:
     Tokenizer();
 
-    void getTokens(std::string tokenFile, std::list<Token>*& tokenList);
+    void getTokens(std::string tokenFile, std::list<Token*>*& tokenList);
     void initializeLists();
     TokenType lookUpKeyword(std::string curToken);
     TokenType lookUpNonID(char firstChar);

@@ -2,14 +2,15 @@
 1427248130 source:c:\users\zolphinus\documents\github\data-structures\compiler\main.cpp
 	"Compiler.h"
 
-1427255417 c:\users\zolphinus\documents\github\data-structures\compiler\compiler.h
+1428260257 c:\users\zolphinus\documents\github\data-structures\compiler\compiler.h
 	<fstream>
 	<string>
+	"CompileEngine.h"
 	"Tokenizer.h"
 	"Token.h"
 	<List>
 
-1427428922 source:c:\users\zolphinus\documents\github\data-structures\compiler\compiler.cpp
+1428260222 source:c:\users\zolphinus\documents\github\data-structures\compiler\compiler.cpp
 	"Compiler.h"
 	<iostream>
 
@@ -19,14 +20,23 @@
 1427416378 c:\users\zolphinus\documents\github\data-structures\compiler\token.h
 	<string>
 
-1427474469 source:c:\users\zolphinus\documents\github\data-structures\compiler\tokenizer.cpp
+1427937360 source:c:\users\zolphinus\documents\github\data-structures\compiler\tokenizer.cpp
 	"Tokenizer.h"
 	<iostream>
 	<fstream>
 	<cstdlib>
 
-1427398408 c:\users\zolphinus\documents\github\data-structures\compiler\tokenizer.h
+1427937408 c:\users\zolphinus\documents\github\data-structures\compiler\tokenizer.h
 	<list>
 	"Token.h"
 	<string>
+
+1428714652 c:\users\zolphinus\documents\github\data-structures\compiler\compileengine.h
+	<list>
+	"Token.h"
+
+1428722189 source:c:\users\zolphinus\documents\github\data-structures\compiler\compileengine.cpp
+	"CompileEngine.h"
+	<iterator>
+	<iostream>
 

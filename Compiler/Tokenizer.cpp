@@ -13,7 +13,7 @@ Tokenizer::Tokenizer(){
 }
 
 
-void Tokenizer::getTokens(std::string tokenFile, std::list<Token>*& tokenList){
+void Tokenizer::getTokens(std::string tokenFile, std::list<Token*>*& tokenList){
     //open ifstream with tokenFile + ".token"
     std::ifstream fin(tokenFile.c_str());
     char firstChar;
@@ -94,27 +94,10 @@ void Tokenizer::getTokens(std::string tokenFile, std::list<Token>*& tokenList){
         newToken->tokenType = tokenType;
         if(newToken->tokenType != ERROR){
             //add to the list
-
-            if(newToken->tokenType == KEYWORD){
-                std::cout << "<KEYWORD>" << newToken->keyword << "</KEYWORD>";
-            }
-            if(newToken->tokenType == IDENTIFIER){
-                std::cout << "<IDENTIFIER>" << newToken->identifier << "</IDENTIFIER>";
-            }
-
-            if(newToken->tokenType == SYMBOL){
-                std::cout << "<SYMBOL>" << newToken->symbol << "</SYMBOL>";
-            }
-
-            if(newToken->tokenType == INT_CONST){
-                std::cout << "<INT_CONST>" << newToken->intVal << "</INT_CONST>";
-            }
-
-            if(newToken->tokenType == STRING_CONST){
-                std::cout << "<STRING_CONST>" << newToken->stringVal << "</STRING_CONST>";
-            }
-
-            std::cout << std::endl;
+            tokenList->push_back(newToken);
+        }else{
+            delete newToken;
+            newToken = NULL;
         }
 
     }
