@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1430267793 source:c:\users\zolphinus\documents\github\data-structures\xmlparse\main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<algorithm>
+	<list>
+

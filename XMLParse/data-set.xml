@@ -1,0 +1,1768 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<LastName>Adkins</LastName>
+		<FirstName>Kelsey</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Bailes</LastName>
+		<FirstName>Nicholas</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Bender</LastName>
+		<FirstName>Jessica</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Blevins</LastName>
+		<FirstName>Lauren</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Boggess</LastName>
+		<FirstName>Jessie</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Brady</LastName>
+		<FirstName>Hiedi</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Brown</LastName>
+		<FirstName>Joshua</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Broyles</LastName>
+		<FirstName>Emily</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Campbell</LastName>
+		<FirstName>Philip</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Cook</LastName>
+		<FirstName>Erin</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Cook</LastName>
+		<FirstName>Nathan </FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Crawford</LastName>
+		<FirstName>Crystal</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Dean</LastName>
+		<FirstName>Nathanael</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Dennison</LastName>
+		<FirstName>Anthony</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Dobson</LastName>
+		<FirstName>LeShawn</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Drennen</LastName>
+		<FirstName>Courtney</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Eichelberger</LastName>
+		<FirstName>Vivian</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Evans</LastName>
+		<FirstName>McKinsie</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Fisher</LastName>
+		<FirstName>Carley</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Frazier</LastName>
+		<FirstName>Adrianna</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Garcia</LastName>
+		<FirstName>Daniel</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Giffen</LastName>
+		<FirstName>Alexandria </FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Grose</LastName>
+		<FirstName>Autumn</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Halverson</LastName>
+		<FirstName>Savannah</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Harvey</LastName>
+		<FirstName>Michael</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Hatfield</LastName>
+		<FirstName>Terry</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Hawkins</LastName>
+		<FirstName>Candance</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Hazelwood</LastName>
+		<FirstName>Heather</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Hill</LastName>
+		<FirstName>Whitney</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Hollifield</LastName>
+		<FirstName>Chelsea </FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Hudson</LastName>
+		<FirstName>Shawnique</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Jeffries</LastName>
+		<FirstName>Jesse</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Kestner</LastName>
+		<FirstName>Jacqueline</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Kitts</LastName>
+		<FirstName>Anna</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Lambert</LastName>
+		<FirstName>Jacob</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Land</LastName>
+		<FirstName>Krystle</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Lane</LastName>
+		<FirstName>Kelsey</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Lemon</LastName>
+		<FirstName>Jessica</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Lupardus</LastName>
+		<FirstName>Joselyn</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>McKenzie</LastName>
+		<FirstName>Laken</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>McKinney</LastName>
+		<FirstName>Taran</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Meadows</LastName>
+		<FirstName>Krista</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Miller</LastName>
+		<FirstName>James</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Miller</LastName>
+		<FirstName>Tonya</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Moreland</LastName>
+		<FirstName>Selina</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Munoz</LastName>
+		<FirstName>Gabriela</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Nasby</LastName>
+		<FirstName>Robert</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Pennington</LastName>
+		<FirstName>Kaitlyn</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Phipps</LastName>
+		<FirstName>Joshua</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Raso</LastName>
+		<FirstName>Chance</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Riffe</LastName>
+		<FirstName>Tonya</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Robinson</LastName>
+		<FirstName>Jennifer</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Simpson</LastName>
+		<FirstName>Timothy</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Stewart</LastName>
+		<FirstName>William</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Thomas </LastName>
+		<FirstName>Andrew </FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Thomason</LastName>
+		<FirstName>Angela</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Vicars</LastName>
+		<FirstName>Brianna</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Weikle</LastName>
+		<FirstName>Megan</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Woody </LastName>
+		<FirstName>Charli</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Blankenship</LastName>
+		<FirstName>James</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Browning</LastName>
+		<FirstName>Sierra</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Gooch</LastName>
+		<FirstName>James</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Hachem</LastName>
+		<FirstName>Caroline</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Lemire</LastName>
+		<FirstName>Steven</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Morgan</LastName>
+		<FirstName>Natasha</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Paxton</LastName>
+		<FirstName>Sarah</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Ryan</LastName>
+		<FirstName>Mary</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Bishop</LastName>
+		<FirstName>Cory</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Fry</LastName>
+		<FirstName>Carla</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Hatfield</LastName>
+		<FirstName>Melinda</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Hurley</LastName>
+		<FirstName>Heather</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Jones</LastName>
+		<FirstName>Sarah</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Lester</LastName>
+		<FirstName>Amanda</FirstName>
+		<Degree>Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Nikolaeva</LastName>
+		<FirstName>Daria</FirstName>
+		<Degree>Bachelor of Arts </Degree>
+	</record>
+	<record>
+		<LastName>Boone</LastName>
+		<FirstName>Cody</FirstName>
+		<Degree>Bachelor of Arts in Interdisciplinary Studies</Degree>
+	</record>
+	<record>
+		<LastName>Caldwell</LastName>
+		<FirstName>Justin</FirstName>
+		<Degree>Bachelor of Arts in Interdisciplinary Studies</Degree>
+	</record>
+	<record>
+		<LastName>Harvey</LastName>
+		<FirstName>Matthew</FirstName>
+		<Degree>Bachelor of Arts in Interdisciplinary Studies</Degree>
+	</record>
+	<record>
+		<LastName>Lang</LastName>
+		<FirstName>Alan</FirstName>
+		<Degree>Bachelor of Arts in Interdisciplinary Studies</Degree>
+	</record>
+	<record>
+		<LastName>McGlothlin</LastName>
+		<FirstName>Chelsea </FirstName>
+		<Degree>Bachelor of Arts in Interdisciplinary Studies</Degree>
+	</record>
+	<record>
+		<LastName>Shirley</LastName>
+		<FirstName>Jessica</FirstName>
+		<Degree>Bachelor of Science in Interdisciplinary Studies</Degree>
+	</record>
+	<record>
+		<LastName>Allman</LastName>
+		<FirstName>Shila</FirstName>
+		<Degree>Bachelor of Science in Athletic Training</Degree>
+	</record>
+	<record>
+		<LastName>Broughman</LastName>
+		<FirstName>Kara</FirstName>
+		<Degree>Bachelor of Science in Athletic Training</Degree>
+	</record>
+	<record>
+		<LastName>Burke</LastName>
+		<FirstName>Laura</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Church</LastName>
+		<FirstName>Steven</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Coburn</LastName>
+		<FirstName>Amanda</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Dale</LastName>
+		<FirstName>Brandon</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Dale</LastName>
+		<FirstName>Jessica</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Dalton</LastName>
+		<FirstName>Jeffrey</FirstName>
+		<Degree>Bachelor of Science in Environmental Geoscience</Degree>
+	</record>
+	<record>
+		<LastName>Danovich</LastName>
+		<FirstName>Gary</FirstName>
+		<Degree>Bachelor of Science in Computer Information Systems</Degree>
+	</record>
+	<record>
+		<LastName>Dixon</LastName>
+		<FirstName>Kelsey</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Dunn</LastName>
+		<FirstName>McKenzie</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Edwards</LastName>
+		<FirstName>Melody</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Farley</LastName>
+		<FirstName>Mariah</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Farley</LastName>
+		<FirstName>Stacy</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Farrar</LastName>
+		<FirstName>Robert</FirstName>
+		<Degree>Bachelor of Science in Athletic Training</Degree>
+	</record>
+	<record>
+		<LastName>Fertig</LastName>
+		<FirstName>Jeffrey</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Fitzsimmons</LastName>
+		<FirstName>Reis</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Foust</LastName>
+		<FirstName>Sierra</FirstName>
+		<Degree>Bachelor of Science in Environmental Geoscience</Degree>
+	</record>
+	<record>
+		<LastName>Hodge</LastName>
+		<FirstName>Eric</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Holdren</LastName>
+		<FirstName>Chelsey</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Hostetler</LastName>
+		<FirstName>Addison</FirstName>
+		<Degree>Bachelor of Science in Environmental Geoscience</Degree>
+	</record>
+	<record>
+		<LastName>Istrate</LastName>
+		<FirstName>Ioan</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Kaminski</LastName>
+		<FirstName>Laura</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Kessinger</LastName>
+		<FirstName>Matthew</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Lauderman</LastName>
+		<FirstName>Julie</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Leadman</LastName>
+		<FirstName>Kelsey</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Mathena</LastName>
+		<FirstName>Cody</FirstName>
+		<Degree>Bachelor of Science in Computer Information Systems</Degree>
+	</record>
+	<record>
+		<LastName>Maxwell</LastName>
+		<FirstName>Adrienne</FirstName>
+		<Degree>Bachelor of Science in Environmental Geoscience</Degree>
+	</record>
+	<record>
+		<LastName>McQuain</LastName>
+		<FirstName>Cameron</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Mohr</LastName>
+		<FirstName>Emily</FirstName>
+		<Degree>Bachelor of Science in Environmental Geoscience</Degree>
+	</record>
+	<record>
+		<LastName>Mooney</LastName>
+		<FirstName>Naythen</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Osburn</LastName>
+		<FirstName>Thomas</FirstName>
+		<Degree>Bachelor of Science in Environmental Geoscience</Degree>
+	</record>
+	<record>
+		<LastName>Owens</LastName>
+		<FirstName>Catherine</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Phipps</LastName>
+		<FirstName>Robert</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Poe</LastName>
+		<FirstName>David</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Ramos</LastName>
+		<FirstName>Cecilia</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Ramsey</LastName>
+		<FirstName>Shiela</FirstName>
+		<Degree>Bachelor of Science in Environmental Geoscience</Degree>
+	</record>
+	<record>
+		<LastName>Rose</LastName>
+		<FirstName>Joseph</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Scott</LastName>
+		<FirstName>Mariah</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Smith</LastName>
+		<FirstName>Alexandrea</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Smith</LastName>
+		<FirstName>Zachary</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Soto</LastName>
+		<FirstName>Vianny</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Spaulding</LastName>
+		<FirstName>Katlyn</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Spertzel</LastName>
+		<FirstName>Samantha</FirstName>
+		<Degree>Bachelor of Science in Athletic Training</Degree>
+	</record>
+	<record>
+		<LastName>Stuter</LastName>
+		<FirstName>Mason</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Taylor</LastName>
+		<FirstName>David</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Taylor</LastName>
+		<FirstName>Tawnni</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Tuggle</LastName>
+		<FirstName>Tanner</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>White</LastName>
+		<FirstName>Daniel</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Wood</LastName>
+		<FirstName>Paris</FirstName>
+		<Degree>Bachelor of Science</Degree>
+	</record>
+	<record>
+		<LastName>Akita</LastName>
+		<FirstName>Ryo</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Allen</LastName>
+		<FirstName>Shawn</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Blevins</LastName>
+		<FirstName>Amber</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Byrd</LastName>
+		<FirstName>Paul</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Cochran</LastName>
+		<FirstName>Andrea</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Compston</LastName>
+		<FirstName>Tyler</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Cornell</LastName>
+		<FirstName>Anthony</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>East</LastName>
+		<FirstName>Chelsea </FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Fisher</LastName>
+		<FirstName>Megan</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Fonrodona Palome</LastName>
+		<FirstName>Daniel</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Gosnell</LastName>
+		<FirstName>Cheryl</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Halsey</LastName>
+		<FirstName>Jason</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Hiner</LastName>
+		<FirstName>Natasha</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Hurley</LastName>
+		<FirstName>Trampes</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Johnston</LastName>
+		<FirstName>Ryan</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Kendrick</LastName>
+		<FirstName>Preston</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Leveau</LastName>
+		<FirstName>Patrik</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Lilly</LastName>
+		<FirstName>Kaitlynn</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Mack</LastName>
+		<FirstName>Kevin</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Mataruski</LastName>
+		<FirstName>Stephanie</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Miller</LastName>
+		<FirstName>Stephen</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Pack</LastName>
+		<FirstName>Christy</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Pyatt</LastName>
+		<FirstName>Ryan</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Pybus</LastName>
+		<FirstName>Bryant</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Pyle</LastName>
+		<FirstName>Anthony</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Rakes</LastName>
+		<FirstName>Anita</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Rakkar</LastName>
+		<FirstName>Barinder</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Saunders</LastName>
+		<FirstName>Kayla</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Shafer</LastName>
+		<FirstName>Kristen</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Tedder</LastName>
+		<FirstName>Korey</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>VanDyke</LastName>
+		<FirstName>Jarrod</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Vu</LastName>
+		<FirstName>Linh</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Waddell</LastName>
+		<FirstName>Zachary</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Wilburn</LastName>
+		<FirstName>Kaitlyn</FirstName>
+		<Degree>Bachelor of Science in Business Administration</Degree>
+	</record>
+	<record>
+		<LastName>Arbogast</LastName>
+		<FirstName>Heather</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Bailey</LastName>
+		<FirstName>Christina</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Boone</LastName>
+		<FirstName>Mitchell</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Burns</LastName>
+		<FirstName>Brittany</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Christian</LastName>
+		<FirstName>Brittany</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Evans</LastName>
+		<FirstName>Kara</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Farmer</LastName>
+		<FirstName>Katherine</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Francis</LastName>
+		<FirstName>Chelsey</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Frey</LastName>
+		<FirstName>Megan</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Hanna</LastName>
+		<FirstName>Isaiah</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Jackson</LastName>
+		<FirstName>Hanna</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Johansson</LastName>
+		<FirstName>Ashli</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Klein</LastName>
+		<FirstName>Laura</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Maynor</LastName>
+		<FirstName>Caitlyn </FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Meadows</LastName>
+		<FirstName>Mindy</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Moore</LastName>
+		<FirstName>Katelyn</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>New</LastName>
+		<FirstName>Simone</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Pittman</LastName>
+		<FirstName>Holly</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Presley</LastName>
+		<FirstName>Amanda</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Ray</LastName>
+		<FirstName>Taylor</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Saylor </LastName>
+		<FirstName>Kevin</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Sevy</LastName>
+		<FirstName>Marissa</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Shrewsberry</LastName>
+		<FirstName>Stephanie</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Simmons</LastName>
+		<FirstName>Jessica</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Weikle</LastName>
+		<FirstName>Lauren</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Whittaker</LastName>
+		<FirstName>Samuel</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Wills</LastName>
+		<FirstName>Caleb</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Wright</LastName>
+		<FirstName>Casey</FirstName>
+		<Degree>Bachelor of Science in Education</Degree>
+	</record>
+	<record>
+		<LastName>Begley</LastName>
+		<FirstName>Nathaniel</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Brockway</LastName>
+		<FirstName>Timothy</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Carey</LastName>
+		<FirstName>Michael</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Halstead</LastName>
+		<FirstName>Kristopher</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Hansen</LastName>
+		<FirstName>Marc</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Manns</LastName>
+		<FirstName>Ervin</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>McGuigan</LastName>
+		<FirstName>Ariel</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Morgan</LastName>
+		<FirstName>Staci</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Nicely</LastName>
+		<FirstName>Cheyenne</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Shaffer</LastName>
+		<FirstName>Lindsey</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Surbaugh</LastName>
+		<FirstName>Cacie</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Wallace</LastName>
+		<FirstName>Pamela</FirstName>
+		<Degree>Bachelor of Science in Recreation &amp; Tourism Management</Degree>
+	</record>
+	<record>
+		<LastName>Adkins</LastName>
+		<FirstName>Kelsey</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Brady</LastName>
+		<FirstName>Hiedi</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Broyles</LastName>
+		<FirstName>Emily</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Crawford</LastName>
+		<FirstName>Crystal</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Dobson</LastName>
+		<FirstName>LeShawn</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Drennen</LastName>
+		<FirstName>Courtney</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Eichelberger</LastName>
+		<FirstName>Vivian</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Fisher</LastName>
+		<FirstName>Carley</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Frazier</LastName>
+		<FirstName>Adrianna</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Giffen</LastName>
+		<FirstName>Alexandria </FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Grose</LastName>
+		<FirstName>Autumn</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Halverson</LastName>
+		<FirstName>Savannah</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Harvey</LastName>
+		<FirstName>Michael</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Hawkins</LastName>
+		<FirstName>Candance</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Lane</LastName>
+		<FirstName>Kelsey</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Meadows</LastName>
+		<FirstName>Krista</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Miller</LastName>
+		<FirstName>Tonya</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Moreland</LastName>
+		<FirstName>Selina</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Munoz</LastName>
+		<FirstName>Gabriela</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Nasby</LastName>
+		<FirstName>Robert</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Riffe</LastName>
+		<FirstName>Tonya</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Simpson</LastName>
+		<FirstName>Timothy</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Thomason</LastName>
+		<FirstName>Angela</FirstName>
+		<Degree>Bachelor of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Billups, Jr</LastName>
+		<FirstName>Shawn</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Daniels</LastName>
+		<FirstName>Alyssa</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Elliott</LastName>
+		<FirstName>Kevin</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Galloway</LastName>
+		<FirstName>Tomi</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Gibson</LastName>
+		<FirstName>Britnee</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Hashimura</LastName>
+		<FirstName>Andrew </FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Mearns</LastName>
+		<FirstName>Fiona</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Montgomery</LastName>
+		<FirstName>Tanise</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Ord</LastName>
+		<FirstName>Casey</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Russell</LastName>
+		<FirstName>Tina</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Sanborn</LastName>
+		<FirstName>Molly</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Smith</LastName>
+		<FirstName>Devin</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Thompson</LastName>
+		<FirstName>Katrina</FirstName>
+		<Degree>Master of Arts in Health Promotion</Degree>
+	</record>
+	<record>
+		<LastName>Schafer</LastName>
+		<FirstName>Molly</FirstName>
+		<Degree>Master of Arts in Teaching</Degree>
+	</record>
+	<record>
+		<LastName>Adkins</LastName>
+		<FirstName>Katherine</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Bailey</LastName>
+		<FirstName>Brooke</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Boone</LastName>
+		<FirstName>Adriana</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Bowling</LastName>
+		<FirstName>Marchelle</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Brown</LastName>
+		<FirstName>Laura</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Crouse</LastName>
+		<FirstName>Aaron</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Cundiff</LastName>
+		<FirstName>Krystal</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Estep</LastName>
+		<FirstName>Gary</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Fraley</LastName>
+		<FirstName>Rebecca</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Furrow</LastName>
+		<FirstName>Sarah</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Geary</LastName>
+		<FirstName>Heather</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Green</LastName>
+		<FirstName>Kevin</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Greene</LastName>
+		<FirstName>Emily</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Griffith</LastName>
+		<FirstName>Melissa</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Hatfield</LastName>
+		<FirstName>Bobbi</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Helvey</LastName>
+		<FirstName>Laura</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Hudgins, Jr.</LastName>
+		<FirstName>Daniel</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Johnson</LastName>
+		<FirstName>Tara</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Lawrence</LastName>
+		<FirstName>Kristen</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>McKnight</LastName>
+		<FirstName>Shannan</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>McPherson</LastName>
+		<FirstName>Johnathan</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>McPherson</LastName>
+		<FirstName>Mallory</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Mullins</LastName>
+		<FirstName>Hannah</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Parker</LastName>
+		<FirstName>Angela</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Rahal</LastName>
+		<FirstName>Sarah</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Riffe</LastName>
+		<FirstName>Joey</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Vass</LastName>
+		<FirstName>Hannah</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Williams</LastName>
+		<FirstName>Sean</FirstName>
+		<Degree>Master of Education</Degree>
+	</record>
+	<record>
+		<LastName>Barnett</LastName>
+		<FirstName>Christine</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Blair</LastName>
+		<FirstName>Tiffany</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Blankinship</LastName>
+		<FirstName>Andrea</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Bolling</LastName>
+		<FirstName>Nicole</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Carrico</LastName>
+		<FirstName>Susan</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>DeLay</LastName>
+		<FirstName>Christine</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Facemire</LastName>
+		<FirstName>Crystal</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Farley</LastName>
+		<FirstName>Heather</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Farmer</LastName>
+		<FirstName>Melanie</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Flora</LastName>
+		<FirstName>Vanesa</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Giambanco</LastName>
+		<FirstName>Rosa</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Hardin</LastName>
+		<FirstName>Brandy</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Hill</LastName>
+		<FirstName>Tamara </FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Hutchens</LastName>
+		<FirstName>Ashley</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Jones</LastName>
+		<FirstName>Jaleesa</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>May </LastName>
+		<FirstName>Kellie</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>McInnis</LastName>
+		<FirstName>Renee</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Mooney</LastName>
+		<FirstName>Paula</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Mullins</LastName>
+		<FirstName>Stacie</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Ratliff</LastName>
+		<FirstName>Jennifer</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Ross</LastName>
+		<FirstName>Jacob</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Sigler</LastName>
+		<FirstName>Chasity</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Smith</LastName>
+		<FirstName>Christine</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Tharp</LastName>
+		<FirstName>Amber</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Thornton</LastName>
+		<FirstName>Jessica</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Vanover</LastName>
+		<FirstName>Stephanie</FirstName>
+		<Degree>Master of Social Work</Degree>
+	</record>
+	<record>
+		<LastName>Bailey</LastName>
+		<FirstName>Andrew </FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Bailey</LastName>
+		<FirstName>Tressie</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Bancells</LastName>
+		<FirstName>Timothy</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Belcher</LastName>
+		<FirstName>Teresa</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Bell</LastName>
+		<FirstName>Erica</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Blankenship</LastName>
+		<FirstName>Erika</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Bonds</LastName>
+		<FirstName>Kimberly</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Carowick</LastName>
+		<FirstName>Joseph</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Cyrus</LastName>
+		<FirstName>Leah</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Davis</LastName>
+		<FirstName>Greta</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Dove, Jr.</LastName>
+		<FirstName>Jerry</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Ellis</LastName>
+		<FirstName>Erin</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Erskine</LastName>
+		<FirstName>Randall</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Frazier, Sr</LastName>
+		<FirstName>Johnathan</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Griffith</LastName>
+		<FirstName>Angela</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Hall</LastName>
+		<FirstName>Elizabeth</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Hensley</LastName>
+		<FirstName>Patra</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Householder</LastName>
+		<FirstName>Kayla</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Jameson</LastName>
+		<FirstName>Caroline</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Kapp</LastName>
+		<FirstName>Stephanie</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Keefer</LastName>
+		<FirstName>Sarah</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Lilly</LastName>
+		<FirstName>Sean</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Lopez</LastName>
+		<FirstName>Misty</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Lusk</LastName>
+		<FirstName>Michelle</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Marion</LastName>
+		<FirstName>Davon</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>May</LastName>
+		<FirstName>Megan</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>McDaniels</LastName>
+		<FirstName>Shanna </FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>McMillan</LastName>
+		<FirstName>Niccole</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Mills</LastName>
+		<FirstName>Teeya</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Montgomery</LastName>
+		<FirstName>Katie</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Murphy</LastName>
+		<FirstName>Johnny</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Neely</LastName>
+		<FirstName>Autumn</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Payne</LastName>
+		<FirstName>Pamela</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Pegram</LastName>
+		<FirstName>Kevin</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Persinger</LastName>
+		<FirstName>Kellee</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Pruitt</LastName>
+		<FirstName>Beverly</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Rose</LastName>
+		<FirstName>Michael</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Serdoz</LastName>
+		<FirstName>Bethany</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Sharpe</LastName>
+		<FirstName>Joseph</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Shockey</LastName>
+		<FirstName>Leigh</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Shrewsbury</LastName>
+		<FirstName>Carol </FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Shumate</LastName>
+		<FirstName>Ronald</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Smith</LastName>
+		<FirstName>Brock</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Stafford</LastName>
+		<FirstName>Kevin</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Testerman</LastName>
+		<FirstName>Michael</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Thompson</LastName>
+		<FirstName>Robin</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Toney</LastName>
+		<FirstName>Carrie</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Trafaria Monterio</LastName>
+		<FirstName>Diogo</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Tynes</LastName>
+		<FirstName>Bobbi</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Vazquez-Ortiz</LastName>
+		<FirstName>Ariana</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Viola</LastName>
+		<FirstName>Eric</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Walker</LastName>
+		<FirstName>Amanda</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Walls</LastName>
+		<FirstName>Ashley</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Webb</LastName>
+		<FirstName>Ashley</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Wills</LastName>
+		<FirstName>Alex </FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Woods</LastName>
+		<FirstName>Amanda</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Woodyard</LastName>
+		<FirstName>Anthony</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+	<record>
+		<LastName>Young</LastName>
+		<FirstName>Devin</FirstName>
+		<Degree>Regents Bachelor of Arts</Degree>
+	</record>
+</data-set>
